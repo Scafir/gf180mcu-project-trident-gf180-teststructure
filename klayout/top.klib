@@ -1,0 +1,21 @@
+{
+    "technology": "",
+    "statements": [
+        {
+            "lib_name": "gf180mcu_ws_io",
+            "lib_path": "$HOME/cernbox/CERN/PhD/gf180mcu-project-trident-gf180-teststructure/gf180mcu/gf180mcuD/libs.ref/gf180mcu_fd_io/gds/gf180mcu_ws_io.gds"
+        },
+        {
+            "lib_name": "gf180mcu_fd_io",
+            "lib_path": "$HOME/cernbox/CERN/PhD/gf180mcu-project-trident-gf180-teststructure/gf180mcu/gf180mcuD/libs.ref/gf180mcu_fd_io/gds/gf180mcu_fd_io.gds"
+        },
+        {
+            "lib_name": "gf180mcu_ef_io",
+            "lib_path": "$HOME/cernbox/CERN/PhD/gf180mcu-project-trident-gf180-teststructure/gf180mcu/gf180mcuD/libs.ref/gf180mcu_fd_io/gds/gf180mcu_ef_io.gds"
+        },
+        {
+            "lib_name": "gf180mcu_fd_io_pad_70x100",
+            "lib_path": "gf180mcu_fd_io_pad_70x100.gds"
+        }
+    ]
+}

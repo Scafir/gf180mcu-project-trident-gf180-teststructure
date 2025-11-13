@@ -1,0 +1,12 @@
+** sch_path: /home/claforge/cernbox/CERN/PhD/gf180mcu-project-trident-gf180-teststructure/xschem/gf180mcu_fd_io__asig_guard_5p0_70x100.sch
+.subckt gf180mcu_fd_io__asig_guard_5p0_70x100 pad pad_guard VDD VSS pad_res
+*.PININFO pad:B pad_guard:B VDD:B VSS:B pad_res:B
+D1 pad_guard pad diode_nd2ps_06v0 area='3u * 50u ' pj='2*3u + 2*50u ' m=8
+D2 VSS pad_guard diode_nd2ps_06v0 area='3u * 50u ' pj='2*3u + 2*50u ' m=8
+D3 pad pad_guard diode_pd2nw_06v0 area='3u * 50u ' pj='2*3u + 2*50u ' m=8
+D4 pad_guard VDD diode_pd2nw_06v0 area='3u * 50u ' pj='2*3u + 2*50u ' m=8
+R1 pad pad_res VDD ppolyf_u_1k r_width=2e-6 r_length=2e-6 m=1
+D5 pad_res pad_guard diode_pd2nw_06v0 area='5u * 5u ' pj='2*5u + 2*5u ' m=1
+D6 pad_guard pad_res diode_nd2ps_06v0 area='5u * 5u ' pj='2*5u + 2*5u ' m=1
+D7 VSS VDD diode_nd2ps_06v0 area='3.48u * 50.48u ' pj='2*3.48u + 2*50.48u ' m=4
+.ends

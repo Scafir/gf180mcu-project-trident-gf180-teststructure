@@ -28,12 +28,16 @@ N 160 -100 440 -100 {lab=pad_guard}
 N 440 0 540 -0 {lab=pad_res}
 N 440 -100 440 -80 {lab=pad_guard}
 N 280 200 760 200 {lab=VSS}
-N 760 200 780 200 {lab=VSS}
 N 780 30 780 200 {lab=VSS}
 N 780 -200 780 -30 {lab=VDD}
 N 160 -200 780 -200 {lab=VDD}
 N 270 200 280 200 {lab=VSS}
 N 270 -200 270 -20 {lab=VDD}
+N 770 200 900 200 {lab=VSS}
+N 900 30 900 200 {lab=VSS}
+N 900 -200 900 -30 {lab=VDD}
+N 780 -200 900 -200 {lab=VDD}
+N 760 200 770 200 {lab=VSS}
 C {iopin.sym} 0 0 2 0 {name=p1 lab=pad}
 C {iopin.sym} 0 -100 2 0 {name=p2 lab=pad_guard}
 C {iopin.sym} 0 -200 2 0 {name=p3 lab=VDD}
@@ -80,3 +84,9 @@ model=diode_nd2ps_06v0
 r_w=3.48u
 r_l=50.48u
 m=4}
+C {symbols/cap_nmos_06v0.sym} 900 0 0 0 {name=C1
+W=15e-6
+L=15e-6
+model=cap_nmos_06v0
+spiceprefix=X
+m=22}

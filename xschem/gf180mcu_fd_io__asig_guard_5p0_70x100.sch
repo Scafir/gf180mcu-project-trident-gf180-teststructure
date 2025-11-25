@@ -5,20 +5,20 @@ V {}
 S {}
 F {}
 E {}
-N 0 -200 160 -200 {lab=VDD}
-N 160 -200 160 -180 {lab=VDD}
+N 0 -200 160 -200 {lab=DVDD}
+N 160 -200 160 -180 {lab=DVDD}
 N 160 -120 160 -80 {lab=pad_guard}
 N 160 -20 160 20 {lab=pad}
 N 160 80 160 120 {lab=pad_guard}
-N 160 190 160 200 {lab=VSS}
-N -0 200 160 200 {lab=VSS}
+N 160 190 160 200 {lab=DVSS}
+N -0 200 160 200 {lab=DVSS}
 N 0 0 160 -0 {lab=pad}
 N -0 -100 160 -100 {lab=pad_guard}
 N 20 -100 20 100 {lab=pad_guard}
 N 20 100 160 100 {lab=pad_guard}
 N 160 -0 240 -0 {lab=pad}
-N 160 200 270 200 {lab=VSS}
-N 160 180 160 190 {lab=VSS}
+N 160 200 270 200 {lab=DVSS}
+N 160 180 160 190 {lab=DVSS}
 N 300 0 360 0 {lab=pad_res}
 N 440 -20 440 20 {lab=pad_res}
 N 360 -0 440 -0 {lab=pad_res}
@@ -27,21 +27,21 @@ N 440 80 440 100 {lab=pad_guard}
 N 160 -100 440 -100 {lab=pad_guard}
 N 440 0 540 -0 {lab=pad_res}
 N 440 -100 440 -80 {lab=pad_guard}
-N 280 200 760 200 {lab=VSS}
-N 780 30 780 200 {lab=VSS}
-N 780 -200 780 -30 {lab=VDD}
-N 160 -200 780 -200 {lab=VDD}
-N 270 200 280 200 {lab=VSS}
-N 270 -200 270 -20 {lab=VDD}
-N 770 200 900 200 {lab=VSS}
-N 900 30 900 200 {lab=VSS}
-N 900 -200 900 -30 {lab=VDD}
-N 780 -200 900 -200 {lab=VDD}
-N 760 200 770 200 {lab=VSS}
+N 280 200 760 200 {lab=DVSS}
+N 780 30 780 200 {lab=DVSS}
+N 780 -200 780 -30 {lab=DVDD}
+N 160 -200 780 -200 {lab=DVDD}
+N 270 200 280 200 {lab=DVSS}
+N 270 -200 270 -20 {lab=DVDD}
+N 770 200 900 200 {lab=DVSS}
+N 900 30 900 200 {lab=DVSS}
+N 900 -200 900 -30 {lab=DVDD}
+N 780 -200 900 -200 {lab=DVDD}
+N 760 200 770 200 {lab=DVSS}
 C {iopin.sym} 0 0 2 0 {name=p1 lab=pad}
 C {iopin.sym} 0 -100 2 0 {name=p2 lab=pad_guard}
-C {iopin.sym} 0 -200 2 0 {name=p3 lab=VDD}
-C {iopin.sym} 0 200 2 0 {name=p4 lab=VSS}
+C {iopin.sym} 0 -200 2 0 {name=p3 lab=DVDD}
+C {iopin.sym} 0 200 2 0 {name=p4 lab=DVSS}
 C {symbols/diode_nd2ps_06v0.sym} 160 50 2 0 {name=D1
 model=diode_nd2ps_06v0
 r_w=3u
@@ -90,3 +90,7 @@ L=15e-6
 model=cap_nmos_06v0
 spiceprefix=X
 m=22}
+C {iopin.sym} 0 -240 2 0 {name=p6 lab=VDD
+}
+C {iopin.sym} 0 260 2 0 {name=p7 lab=VSS
+}

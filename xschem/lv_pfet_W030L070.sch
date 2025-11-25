@@ -17,7 +17,7 @@ N 200 -100 320 -100 {lab=VSS}
 C {iopin.sym} 0 -220 2 0 {name=p1 lab=drain}
 C {iopin.sym} 0 -100 2 0 {name=p2 lab=gate}
 C {iopin.sym} 0 40 2 0 {name=p3 lab=source}
-C {iopin.sym} 0 200 2 0 {name=p4 lab=VSS}
+C {iopin.sym} 0 200 2 0 {name=p4 lab=VDD}
 C {iopin.sym} 0 -280 2 0 {name=p5 lab=guard}
 C {symbols/pfet_03v3.sym} 180 -100 2 1 {name=M1
 L=0.7u

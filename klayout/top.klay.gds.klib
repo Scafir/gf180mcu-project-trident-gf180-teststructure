@@ -6,16 +6,12 @@
             "lib_path": "gf180mcu_fd_io_pad_70x100.gds"
         },
         {
-            "lib_name": "gf180mcu_ws_io",
-            "lib_path": "$HOME/Documents/gf180mcu/gf180mcuD/libs.ref/gf180mcu_fd_io/gds/gf180mcu_ws_io.gds"
+            "lib_name": "gf180mcu_liplib",
+            "lib_path": "$HOME/Documents/liplib/gf180mcuD/gds/gf180mcu_liplib.gds"
         },
         {
             "lib_name": "gf180mcu_fd_io",
             "lib_path": "$HOME/Documents/gf180mcu/gf180mcuD/libs.ref/gf180mcu_fd_io/gds/gf180mcu_fd_io.gds"
-        },
-        {
-            "lib_name": "gf180mcu_ef_io",
-            "lib_path": "$HOME/Documents/gf180mcu/gf180mcuD/libs.ref/gf180mcu_fd_io/gds/gf180mcu_ef_io.gds"
         }
     ]
 }

@@ -5,15 +5,16 @@ V {}
 S {}
 F {}
 E {}
-N -0 200 160 200 {lab=VSS}
+N -0 200 160 200 {lab=VDD}
 N 0 -220 200 -220 {lab=drain}
 N 200 -220 200 -130 {lab=drain}
 N 0 -100 160 -100 {lab=gate}
 N 0 40 200 40 {lab=source}
 N 200 -70 200 40 {lab=source}
-N 160 200 320 200 {lab=VSS}
-N 320 -100 320 200 {lab=VSS}
-N 200 -100 320 -100 {lab=VSS}
+N 160 200 320 200 {lab=VDD}
+N 320 -100 320 200 {lab=VDD}
+N 200 -100 320 -100 {lab=VDD}
+N 0 -280 40 -280 {lab=guard}
 C {iopin.sym} 0 -220 2 0 {name=p1 lab=drain}
 C {iopin.sym} 0 -100 2 0 {name=p2 lab=gate}
 C {iopin.sym} 0 40 2 0 {name=p3 lab=source}
@@ -33,3 +34,4 @@ sa=0 sb=0 sd=0
 model=pfet_03v3
 spiceprefix=X
 }
+C {noconn.sym} 40 -280 2 0 {name=l1}

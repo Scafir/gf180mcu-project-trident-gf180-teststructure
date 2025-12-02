@@ -14,6 +14,7 @@ N 200 -70 200 40 {lab=source}
 N 160 200 320 200 {lab=VSS}
 N 320 -100 320 200 {lab=VSS}
 N 200 -100 320 -100 {lab=VSS}
+N 0 -280 40 -280 {lab=guard}
 C {iopin.sym} 0 -220 2 0 {name=p1 lab=drain}
 C {iopin.sym} 0 -100 2 0 {name=p2 lab=gate}
 C {iopin.sym} 0 40 2 0 {name=p3 lab=source}
@@ -33,3 +34,4 @@ model=nfet_06v0
 spiceprefix=X
 }
 C {iopin.sym} 0 -280 2 0 {name=p5 lab=guard}
+C {noconn.sym} 40 -280 2 0 {name=l1}

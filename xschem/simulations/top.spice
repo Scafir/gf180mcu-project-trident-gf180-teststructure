@@ -1,0 +1,688 @@
+** sch_path: /run/host/mainData/cernbox/PhD/gf180mcu-project-trident-gf180-teststructure/xschem/top.sch
+**.subckt top lv_nfet_W030L070_source_PAD lv_nfet_W030L070_gate_PAD lv_nfet_W030L070_drain_PAD lv_pfet_W030L070_source_PAD
+*+ lv_pfet_W030L070_gate_PAD lv_pfet_W030L070_drain_PAD hv_nfet_W030L070_source_PAD hv_nfet_W030L070_gate_PAD hv_nfet_W030L070_drain_PAD
+*+ hv_pfet_W030L070_source_PAD hv_pfet_W030L070_gate_PAD hv_pfet_W030L070_drain_PAD GUARDSENSE_ASIG_PAD GUARDSENSE_SENSE_PAD PAD_GUARD_PAD ASIG_FOUNDRY_PAD
+*+ PAD_GUARD_PAD EMPTY_PAD guard_transistors_PAD TOFILL54_PAD TOFILL55_PAD TOFILL56_PAD TOFILL57_PAD TOFILL58_PAD TOFILL59_PAD TOFILL60_PAD
+*+ TOFILL61_PAD TOFILL62_PAD TOFILL63_PAD TOFILL23_PAD TOFILL24_PAD TOFILL25_PAD TOFILL26_PAD TOFILL27_PAD TOFILL28_PAD TOFILL29_PAD TOFILL30_PAD
+*+ TOFILL31_PAD CHARGE_PUMP_VW_PAD CHARGE_PUMP_G1_PAD CHARGE_PUMP_G2_PAD GUARD_CHARGE_PUMP_PAD TOFILL18_PAD TOFILL17_PAD TOFILL16_PAD
+*+ TOFILL15_PAD TOFILL14_PAD TOFILL13_PAD TOFILL12_PAD TOFILL11_PAD TOFILL10_PAD TOFILL9_PAD TOFILL8_PAD TOFILL7_PAD TOFILL6_PAD TOFILL5_PAD
+*+ TOFILL4_PAD TOFILL3_PAD TOFILL2_PAD TOFILL1_PAD TOFILL49_PAD TOFILL48_PAD TOFILL47_PAD TOFILL46_PAD TOFILL45_PAD TOFILL44_PAD TOFILL43_PAD
+*+ TOFILL42_PAD TOFILL41_PAD TOFILL40_PAD TOFILL39_PAD TOFILL38_PAD TOFILL37_PAD TOFILL36_PAD TOFILL35_PAD TOFILL34_PAD TOFILL33_PAD TOFILL32_PAD
+*+ CHARGE_PUMP_VS_PAD ASIG_GUARD_PAD VDD VSS TOFILL19_PAD TOFILL20_PAD TOFILL21_PAD TOFILL22_PAD TOFILL53_PAD TOFILL52_PAD TOFILL51_PAD TOFILL50_PAD
+*.iopin lv_nfet_W030L070_source_PAD
+*.iopin lv_nfet_W030L070_gate_PAD
+*.iopin lv_nfet_W030L070_drain_PAD
+*.iopin lv_pfet_W030L070_source_PAD
+*.iopin lv_pfet_W030L070_gate_PAD
+*.iopin lv_pfet_W030L070_drain_PAD
+*.iopin hv_nfet_W030L070_source_PAD
+*.iopin hv_nfet_W030L070_gate_PAD
+*.iopin hv_nfet_W030L070_drain_PAD
+*.iopin hv_pfet_W030L070_source_PAD
+*.iopin hv_pfet_W030L070_gate_PAD
+*.iopin hv_pfet_W030L070_drain_PAD
+*.iopin GUARDSENSE_ASIG_PAD
+*.iopin GUARDSENSE_SENSE_PAD
+*.iopin PAD_GUARD_PAD
+*.iopin ASIG_FOUNDRY_PAD
+*.iopin PAD_GUARD_PAD
+*.iopin EMPTY_PAD
+*.iopin guard_transistors_PAD
+*.iopin TOFILL54_PAD
+*.iopin TOFILL55_PAD
+*.iopin TOFILL56_PAD
+*.iopin TOFILL57_PAD
+*.iopin TOFILL58_PAD
+*.iopin TOFILL59_PAD
+*.iopin TOFILL60_PAD
+*.iopin TOFILL61_PAD
+*.iopin TOFILL62_PAD
+*.iopin TOFILL63_PAD
+*.iopin TOFILL23_PAD
+*.iopin TOFILL24_PAD
+*.iopin TOFILL25_PAD
+*.iopin TOFILL26_PAD
+*.iopin TOFILL27_PAD
+*.iopin TOFILL28_PAD
+*.iopin TOFILL29_PAD
+*.iopin TOFILL30_PAD
+*.iopin TOFILL31_PAD
+*.iopin CHARGE_PUMP_VW_PAD
+*.iopin CHARGE_PUMP_G1_PAD
+*.iopin CHARGE_PUMP_G2_PAD
+*.iopin GUARD_CHARGE_PUMP_PAD
+*.iopin TOFILL18_PAD
+*.iopin TOFILL17_PAD
+*.iopin TOFILL16_PAD
+*.iopin TOFILL15_PAD
+*.iopin TOFILL14_PAD
+*.iopin TOFILL13_PAD
+*.iopin TOFILL12_PAD
+*.iopin TOFILL11_PAD
+*.iopin TOFILL10_PAD
+*.iopin TOFILL9_PAD
+*.iopin TOFILL8_PAD
+*.iopin TOFILL7_PAD
+*.iopin TOFILL6_PAD
+*.iopin TOFILL5_PAD
+*.iopin TOFILL4_PAD
+*.iopin TOFILL3_PAD
+*.iopin TOFILL2_PAD
+*.iopin TOFILL1_PAD
+*.iopin TOFILL49_PAD
+*.iopin TOFILL48_PAD
+*.iopin TOFILL47_PAD
+*.iopin TOFILL46_PAD
+*.iopin TOFILL45_PAD
+*.iopin TOFILL44_PAD
+*.iopin TOFILL43_PAD
+*.iopin TOFILL42_PAD
+*.iopin TOFILL41_PAD
+*.iopin TOFILL40_PAD
+*.iopin TOFILL39_PAD
+*.iopin TOFILL38_PAD
+*.iopin TOFILL37_PAD
+*.iopin TOFILL36_PAD
+*.iopin TOFILL35_PAD
+*.iopin TOFILL34_PAD
+*.iopin TOFILL33_PAD
+*.iopin TOFILL32_PAD
+*.iopin CHARGE_PUMP_VS_PAD
+*.iopin ASIG_GUARD_PAD
+*.iopin VDD
+*.iopin VSS
+*.iopin TOFILL19_PAD
+*.iopin TOFILL20_PAD
+*.iopin TOFILL21_PAD
+*.iopin TOFILL22_PAD
+*.iopin TOFILL53_PAD
+*.iopin TOFILL52_PAD
+*.iopin TOFILL51_PAD
+*.iopin TOFILL50_PAD
+x38 VDD VSS VDD VSS corner
+x40 VDD VSS VDD gf180mcu_fd_io__dvss_70x100
+x50 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x51 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x52 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x80 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x81 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x82 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x83 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x84 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x85 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x86 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x87 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x88 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x4 VDD VSS VDD VSS gf180mcu_fd_io__fill5
+x35 EMPTY_PAD VDD VSS VDD VSS PAD_GUARD_PAD gf180mcu_liplib__no_esd_guarded_pad_70x100
+x110 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x111 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x37 PAD_GUARD_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x2 ASIG_FOUNDRY_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x43 PAD_GUARD_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x45 VDD VSS VDD gf180mcu_fd_io__dvss_70x100
+x5 VDD VSS VSS gf180mcu_fd_io__dvdd_70x100
+* noconn #net1
+* noconn #net2
+* noconn EMPTY_PAD
+x120 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x121 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x122 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x130 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x131 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x132 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x39 VDD VSS VSS gf180mcu_fd_io__dvdd_70x100
+x34 guard_transistors_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x140 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x141 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x142 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x41 guard_transistors_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x160 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x161 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x10 VDD VSS VDD VSS corner
+x20 TOFILL54_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x22 TOFILL55_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x7 TOFILL56_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x12 TOFILL57_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x14 TOFILL58_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x17 TOFILL59_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x19 TOFILL60_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x24 TOFILL61_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x26 TOFILL62_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x28 TOFILL63_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x30 TOFILL23_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x32 TOFILL24_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x42 TOFILL25_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x46 TOFILL26_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x47 TOFILL27_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x48 TOFILL28_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x49 TOFILL29_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x53 TOFILL30_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x54 TOFILL31_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x56 CHARGE_PUMP_G1_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x58 CHARGE_PUMP_G2_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x59 GUARD_CHARGE_PUMP_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x74 TOFILL18_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x75 TOFILL17_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x76 TOFILL16_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x77 TOFILL15_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x78 TOFILL14_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x79 TOFILL13_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x89 TOFILL12_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x92 TOFILL11_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x93 TOFILL10_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x94 TOFILL9_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x95 TOFILL8_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x96 TOFILL7_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x97 TOFILL6_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x98 TOFILL5_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x99 TOFILL4_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x102 TOFILL3_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x103 TOFILL2_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x104 TOFILL1_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x105 VDD VSS VDD VSS corner
+x106 TOFILL49_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x107 TOFILL48_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x108 TOFILL47_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x109 TOFILL46_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x113 TOFILL45_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x114 TOFILL44_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x115 TOFILL43_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x116 TOFILL42_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x117 TOFILL41_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x118 TOFILL40_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x119 TOFILL39_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x123 TOFILL38_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x124 TOFILL37_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x125 TOFILL36_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x126 TOFILL35_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x127 TOFILL34_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x128 TOFILL33_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x129 TOFILL32_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x135 VDD VSS VDD gf180mcu_fd_io__dvss_70x100
+x136 VDD VSS VSS gf180mcu_fd_io__dvdd_70x100
+x910 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x911 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x912 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x133 GUARD_CHARGE_PUMP_PAD CHARGE_PUMP_VS_PAD CHARGE_PUMP_G1_PAD CHARGE_PUMP_G2_PAD CHARGE_PUMP_VW_PAD
++ matched_interface_trap_charge_pumps
+x370 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x371 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x372 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x55 VDD VSS VSS gf180mcu_fd_io__dvdd_70x100
+x137 VDD VSS VDD gf180mcu_fd_io__dvss_70x100
+x44 GUARDSENSE_SENSE_PAD net2 GUARDSENSE_ASIG_PAD VDD net1 VSS VDD VSS PAD_GUARD_PAD
++ gf180mcu_liplib__asig_guard_sense_5p0_pad_70x100_p105
+x36 VDD VSS VDD VSS corner
+x72 VDD VSS VDD VSS gf180mcu_fd_io__fill5
+x112 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x73 VDD VSS VDD VSS gf180mcu_fd_io__fill5
+x900 VDD VSS VDD VSS gf180mcu_fd_io__fill1
+x901 VDD VSS VDD VSS gf180mcu_fd_io__fill1
+x90 ASIG_GUARD_PAD VDD net3 VSS VDD VSS PAD_GUARD_PAD gf180mcu_liplib__asig_guard_5p0_pad_70x100
+* noconn #net3
+x100 VDD VSS VDD VSS gf180mcu_fd_io__fill1
+x101 VDD VSS VDD VSS gf180mcu_fd_io__fill1
+x920 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x921 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x922 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x923 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x924 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x925 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x926 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x927 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x928 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x929 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x3 CHARGE_PUMP_VS_PAD VDD VSS VDD VSS GUARD_CHARGE_PUMP_PAD gf180mcu_liplib__no_esd_guarded_pad_70x100
+x57 CHARGE_PUMP_VW_PAD VDD VSS VDD VSS GUARD_CHARGE_PUMP_PAD gf180mcu_liplib__no_esd_guarded_pad_70x100
+x60 VDD VSS VDD VSS fill_25
+x61 VDD VSS VDD VSS fill_25
+x62 VDD VSS VDD VSS fill_25
+x63 VDD VSS VDD VSS fill_25
+x64 lv_nfet_W030L070_source_PAD VDD VSS VDD VSS guard_transistors_PAD gf180mcu_liplib__no_esd_guarded_pad_70x100
+x1 lv_nfet_W030L070_gate_PAD VDD VSS VDD VSS guard_transistors_PAD gf180mcu_liplib__no_esd_guarded_pad_70x100
+x6 lv_nfet_W030L070_drain_PAD VDD VSS VDD VSS guard_transistors_PAD gf180mcu_liplib__no_esd_guarded_pad_70x100
+x9 lv_pfet_W030L070_source_PAD VDD VSS VDD VSS guard_transistors_PAD gf180mcu_liplib__no_esd_guarded_pad_70x100
+x11 lv_pfet_W030L070_gate_PAD VDD VSS VDD VSS guard_transistors_PAD gf180mcu_liplib__no_esd_guarded_pad_70x100
+x13 lv_pfet_W030L070_drain_PAD VDD VSS VDD VSS guard_transistors_PAD gf180mcu_liplib__no_esd_guarded_pad_70x100
+x16 hv_nfet_W030L070_source_PAD VDD VSS VDD VSS guard_transistors_PAD gf180mcu_liplib__no_esd_guarded_pad_70x100
+x18 hv_nfet_W030L070_gate_PAD VDD VSS VDD VSS guard_transistors_PAD gf180mcu_liplib__no_esd_guarded_pad_70x100
+x21 hv_nfet_W030L070_drain_PAD VDD VSS VDD VSS guard_transistors_PAD gf180mcu_liplib__no_esd_guarded_pad_70x100
+x23 hv_pfet_W030L070_source_PAD VDD VSS VDD VSS guard_transistors_PAD gf180mcu_liplib__no_esd_guarded_pad_70x100
+x25 hv_pfet_W030L070_gate_PAD VDD VSS VDD VSS guard_transistors_PAD gf180mcu_liplib__no_esd_guarded_pad_70x100
+x29 hv_pfet_W030L070_drain_PAD VDD VSS VDD VSS guard_transistors_PAD gf180mcu_liplib__no_esd_guarded_pad_70x100
+x31 VDD VSS VDD VSS fill_25
+x65 VDD VSS VDD VSS fill_25
+x70 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x71 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x150 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x151 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x170 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x171 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x180 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x181 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x190 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x191 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x200 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x201 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x210 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x211 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x220 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x221 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x230 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x231 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x240 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x241 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x66 TOFILL19_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x67 TOFILL20_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x68 TOFILL21_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x69 TOFILL22_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x91 TOFILL53_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x134 TOFILL52_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x138 TOFILL51_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x139 TOFILL50_PAD VDD VSS VDD VSS gf180mcu_fd_io__asig_5p0_70x100
+x250 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x251 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x252 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x260 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x261 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x262 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x270 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x271 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x272 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x380 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x381 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x382 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x390 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x391 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x392 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x400 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x401 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x402 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x410 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x411 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x412 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x420 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x421 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x422 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x430 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x431 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x432 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x440 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x441 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x442 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x450 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x451 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x452 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x460 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x461 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x462 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x470 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x471 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x472 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x480 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x481 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x482 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x490 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x491 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x492 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x500 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x501 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x502 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x510 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x511 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x512 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x520 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x521 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x522 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x530 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x531 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x532 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x540 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x541 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x542 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x550 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x551 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x552 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x560 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x561 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x562 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x280 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x281 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x282 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x290 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x291 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x292 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x300 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x301 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x302 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x310 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x311 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x312 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x320 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x321 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x322 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x330 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x331 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x332 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x340 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x341 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x342 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x350 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x351 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x352 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x360 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x361 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x362 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x570 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x571 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x572 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x580 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x581 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x582 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x590 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x591 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x592 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x600 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x601 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x602 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x610 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x611 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x612 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x620 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x621 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x622 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x630 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x631 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x632 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x640 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x641 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x642 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x650 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x651 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x652 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x660 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x661 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x662 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x670 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x671 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x672 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x680 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x681 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x682 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x690 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x691 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x692 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x700 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x701 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x702 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x710 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x711 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x712 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x720 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x721 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x722 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x730 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x731 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x732 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x740 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x741 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x742 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x750 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x751 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x752 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x760 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x761 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x762 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x770 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x771 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x772 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x780 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x781 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x782 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x790 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x791 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x792 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x800 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x801 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x802 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x810 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x811 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x812 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x820 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x821 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x822 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x830 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x831 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x832 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x840 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x841 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x842 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x850 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x851 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x852 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x860 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x861 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x862 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x870 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x871 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x872 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x880 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x881 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x882 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x890 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x891 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x892 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x930 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x931 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x932 VDD VSS VDD VSS gf180mcu_fd_io__fill10
+x8 guard_transistors_PAD lv_nfet_W030L070_drain_PAD lv_nfet_W030L070_gate_PAD lv_nfet_W030L070_source_PAD VSS lv_nfet_W075L070
+x15 guard_transistors_PAD lv_pfet_W030L070_drain_PAD lv_pfet_W030L070_gate_PAD lv_pfet_W030L070_source_PAD VDD lv_pfet_W075L070
+x27 guard_transistors_PAD hv_nfet_W030L070_drain_PAD hv_nfet_W030L070_gate_PAD hv_nfet_W030L070_source_PAD VSS hv_nfet_W075L070
+x33 guard_transistors_PAD hv_pfet_W030L070_drain_PAD hv_pfet_W030L070_gate_PAD hv_pfet_W030L070_source_PAD VDD hv_pfet_W075L070
+**** begin user architecture code
+
+
+* INCLUDING NOW
+.include $::GF180MCU_FD_IO_PAD_70x100_SPICE
+.include $::GF180MCU_FD_IO_SPICE
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  corner.sym # of pins=4
+** sym_path: /run/host/mainData/cernbox/PhD/gf180mcu-project-trident-gf180-teststructure/xschem/corner.sym
+** sch_path: /run/host/mainData/cernbox/PhD/gf180mcu-project-trident-gf180-teststructure/xschem/corner.sch
+.subckt corner DVDD DVSS VDD VSS
+*.iopin VSS
+*.iopin VDD
+*.iopin DVSS
+*.iopin DVDD
+x11 DVDD DVSS VDD VSS gf180mcu_fd_io__fill5
+x70 DVDD DVSS VDD VSS gf180mcu_fd_io__fill1
+x71 DVDD DVSS VDD VSS gf180mcu_fd_io__fill1
+x100 DVDD DVSS VDD VSS gf180mcu_fd_io__fill10
+x101 DVDD DVSS VDD VSS gf180mcu_fd_io__fill10
+x102 DVDD DVSS VDD VSS gf180mcu_fd_io__fill10
+x103 DVDD DVSS VDD VSS gf180mcu_fd_io__fill10
+x104 DVDD DVSS VDD VSS gf180mcu_fd_io__fill10
+x24 DVDD DVSS VDD VSS gf180mcu_fd_io__fill5
+x1 DVDD DVSS VDD VSS gf180mcu_fd_io__cor
+x20 DVDD DVSS VDD VSS gf180mcu_fd_io__fill10
+x21 DVDD DVSS VDD VSS gf180mcu_fd_io__fill10
+x22 DVDD DVSS VDD VSS gf180mcu_fd_io__fill10
+.ends
+
+
+* expanding   symbol:  gf180mcu_liplib__no_esd_guarded_pad_70x100.sym # of pins=7
+** sym_path: /home/clyde/Documents/liplib/gf180mcuD/xschem/gf180mcu_liplib__no_esd_guarded_pad_70x100.sym
+** sch_path: /home/clyde/Documents/liplib/gf180mcuD/xschem/gf180mcu_liplib__no_esd_guarded_pad_70x100.sch
+.subckt gf180mcu_liplib__no_esd_guarded_pad_70x100 pad DVDD DVSS VDD VSS pad_guard
+*.iopin pad
+*.iopin pad_guard
+*.iopin DVDD
+*.iopin DVSS
+*.iopin VDD
+*.iopin VSS
+* noconn DVDD
+* noconn pad_guard
+* noconn pad
+* noconn DVSS
+*  C1 -  cap_nmos_06v0  IS MISSING !!!!
+.ends
+
+
+* expanding   symbol:  matched_interface_trap_charge_pumps.sym # of pins=5
+** sym_path: /run/host/mainData/cernbox/PhD/gf180mcu-project-trident-gf180-teststructure/xschem/matched_interface_trap_charge_pumps.sym
+** sch_path: /run/host/mainData/cernbox/PhD/gf180mcu-project-trident-gf180-teststructure/xschem/matched_interface_trap_charge_pumps.sch
+.subckt matched_interface_trap_charge_pumps guard V_S V_G1 V_G2 V_W
+*.iopin guard
+*.iopin V_W
+*.iopin V_S
+*.iopin V_G1
+*.iopin V_G2
+*  M1 -  pfet_03v3  IS MISSING !!!!
+*  M2 -  pfet_03v3  IS MISSING !!!!
+* noconn guard
+*  M3 -  pfet_03v3  IS MISSING !!!!
+.ends
+
+
+* expanding   symbol:  gf180mcu_liplib__asig_guard_sense_5p0_pad_70x100_p105.sym # of pins=9
+** sym_path: /home/clyde/Documents/liplib/gf180mcuD/xschem/gf180mcu_liplib__asig_guard_sense_5p0_pad_70x100_p105.sym
+** sch_path: /home/clyde/Documents/liplib/gf180mcuD/xschem/gf180mcu_liplib__asig_guard_sense_5p0_pad_70x100_p105.sch
+.subckt gf180mcu_liplib__asig_guard_sense_5p0_pad_70x100_p105 sense sense_res pad DVDD pad_res DVSS VDD VSS pad_guard
+*.iopin pad
+*.iopin pad_guard
+*.iopin DVDD
+*.iopin DVSS
+*.iopin pad_res
+*.iopin sense
+*.iopin sense_res
+*.iopin VDD
+*.iopin VSS
+*  D1 -  diode_nd2ps_06v0  IS MISSING !!!!
+*  D2 -  diode_nd2ps_06v0  IS MISSING !!!!
+*  D3 -  diode_pd2nw_06v0  IS MISSING !!!!
+*  D4 -  diode_pd2nw_06v0  IS MISSING !!!!
+*  R1 -  ppolyf_u_1k  IS MISSING !!!!
+*  D5 -  diode_pd2nw_06v0  IS MISSING !!!!
+*  D6 -  diode_nd2ps_06v0  IS MISSING !!!!
+*  D7 -  diode_nd2ps_06v0  IS MISSING !!!!
+*  D8 -  diode_nd2ps_06v0  IS MISSING !!!!
+*  D9 -  diode_pd2nw_06v0  IS MISSING !!!!
+*  R2 -  ppolyf_u_1k  IS MISSING !!!!
+*  D10 -  diode_pd2nw_06v0  IS MISSING !!!!
+*  D11 -  diode_nd2ps_06v0  IS MISSING !!!!
+*  D14 -  diode_pd2nw_06v0  IS MISSING !!!!
+*  D15 -  diode_pd2nw_06v0  IS MISSING !!!!
+*  D12 -  diode_nd2ps_06v0  IS MISSING !!!!
+*  D13 -  diode_pd2nw_06v0  IS MISSING !!!!
+*  R5 -  ppolyf_u_1k  IS MISSING !!!!
+*  C1 -  cap_nmos_06v0  IS MISSING !!!!
+*  C2 -  cap_nmos_06v0  IS MISSING !!!!
+*  R3 -  ppolyf_u_1k  IS MISSING !!!!
+*  D16 -  diode_nd2ps_06v0  IS MISSING !!!!
+*  D17 -  diode_pd2nw_06v0  IS MISSING !!!!
+.ends
+
+
+* expanding   symbol:  gf180mcu_liplib__asig_guard_5p0_pad_70x100.sym # of pins=7
+** sym_path: /home/clyde/Documents/liplib/gf180mcuD/xschem/gf180mcu_liplib__asig_guard_5p0_pad_70x100.sym
+** sch_path: /home/clyde/Documents/liplib/gf180mcuD/xschem/gf180mcu_liplib__asig_guard_5p0_pad_70x100.sch
+.subckt gf180mcu_liplib__asig_guard_5p0_pad_70x100 pad DVDD pad_res DVSS VDD VSS pad_guard
+*.iopin pad
+*.iopin pad_guard
+*.iopin DVDD
+*.iopin DVSS
+*.iopin pad_res
+*.iopin VDD
+*.iopin VSS
+*  D1 -  diode_nd2ps_06v0  IS MISSING !!!!
+*  D2 -  diode_nd2ps_06v0  IS MISSING !!!!
+*  D3 -  diode_pd2nw_06v0  IS MISSING !!!!
+*  D4 -  diode_pd2nw_06v0  IS MISSING !!!!
+*  D7 -  diode_nd2ps_06v0  IS MISSING !!!!
+*  C1 -  cap_nmos_06v0  IS MISSING !!!!
+*  D16 -  diode_nd2ps_06v0  IS MISSING !!!!
+*  D17 -  diode_pd2nw_06v0  IS MISSING !!!!
+*  D6 -  diode_nd2ps_06v0  IS MISSING !!!!
+*  D5 -  diode_pd2nw_06v0  IS MISSING !!!!
+*  R3 -  ppolyf_u_1k_6p0  IS MISSING !!!!
+*  R1 -  ppolyf_u_1k_6p0  IS MISSING !!!!
+* noconn VDD
+* noconn VSS
+.ends
+
+
+* expanding   symbol:  fill_25.sym # of pins=4
+** sym_path: /run/host/mainData/cernbox/PhD/gf180mcu-project-trident-gf180-teststructure/xschem/fill_25.sym
+** sch_path: /run/host/mainData/cernbox/PhD/gf180mcu-project-trident-gf180-teststructure/xschem/fill_25.sch
+.subckt fill_25 DVDD DVSS VDD VSS
+*.iopin VSS
+*.iopin VDD
+*.iopin DVSS
+*.iopin DVDD
+x30 DVDD DVSS VDD VSS gf180mcu_fd_io__fill10
+x31 DVDD DVSS VDD VSS gf180mcu_fd_io__fill10
+x24 DVDD DVSS VDD VSS gf180mcu_fd_io__fill5
+.ends
+
+
+* expanding   symbol:  lv_nfet_W075L070.sym # of pins=5
+** sym_path: /run/host/mainData/cernbox/PhD/gf180mcu-project-trident-gf180-teststructure/xschem/lv_nfet_W075L070.sym
+** sch_path: /run/host/mainData/cernbox/PhD/gf180mcu-project-trident-gf180-teststructure/xschem/lv_nfet_W075L070.sch
+.subckt lv_nfet_W075L070 guard drain gate source VSS
+*.iopin drain
+*.iopin gate
+*.iopin source
+*.iopin VSS
+*.iopin guard
+*  M1 -  nfet_03v3  IS MISSING !!!!
+* noconn guard
+.ends
+
+
+* expanding   symbol:  lv_pfet_W075L070.sym # of pins=5
+** sym_path: /run/host/mainData/cernbox/PhD/gf180mcu-project-trident-gf180-teststructure/xschem/lv_pfet_W075L070.sym
+** sch_path: /run/host/mainData/cernbox/PhD/gf180mcu-project-trident-gf180-teststructure/xschem/lv_pfet_W075L070.sch
+.subckt lv_pfet_W075L070 guard drain gate source VDD
+*.iopin drain
+*.iopin gate
+*.iopin source
+*.iopin VDD
+*.iopin guard
+*  M1 -  pfet_03v3  IS MISSING !!!!
+* noconn guard
+.ends
+
+
+* expanding   symbol:  hv_nfet_W075L070.sym # of pins=5
+** sym_path: /run/host/mainData/cernbox/PhD/gf180mcu-project-trident-gf180-teststructure/xschem/hv_nfet_W075L070.sym
+** sch_path: /run/host/mainData/cernbox/PhD/gf180mcu-project-trident-gf180-teststructure/xschem/hv_nfet_W075L070.sch
+.subckt hv_nfet_W075L070 guard drain gate source VSS
+*.iopin drain
+*.iopin gate
+*.iopin source
+*.iopin VSS
+*.iopin guard
+*  M1 -  nfet_06v0  IS MISSING !!!!
+* noconn guard
+.ends
+
+
+* expanding   symbol:  hv_pfet_W075L070.sym # of pins=5
+** sym_path: /run/host/mainData/cernbox/PhD/gf180mcu-project-trident-gf180-teststructure/xschem/hv_pfet_W075L070.sym
+** sch_path: /run/host/mainData/cernbox/PhD/gf180mcu-project-trident-gf180-teststructure/xschem/hv_pfet_W075L070.sch
+.subckt hv_pfet_W075L070 guard drain gate source VDD
+*.iopin drain
+*.iopin gate
+*.iopin source
+*.iopin VDD
+*.iopin guard
+*  M2 -  pfet_06v0  IS MISSING !!!!
+* noconn guard
+.ends
+
+.end

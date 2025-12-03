@@ -74,12 +74,22 @@ N 1890 -480 2140 -480 {lab=VSS}
 N 2180 -330 2180 -310 {lab=DVDD}
 N 1960 -300 2180 -300 {lab=DVDD}
 N 2180 -310 2180 -300 {lab=DVDD}
-C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 1300 210 3 0 {name=x3[0..2]}
-C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill5.sym} 1520 210 3 0 {name=x11}
+N 990 220 1010 220 {lab=DVDD}
+N 980 0 980 220 {lab=DVDD}
+N 1000 180 1010 180 {lab=VDD}
+N 980 220 990 220 {lab=DVDD}
+N 1000 -50 1000 180 {lab=VDD}
+N 1150 220 1180 220 {lab=DVSS}
+N 1180 -20 1180 220 {lab=DVSS}
+N 1150 180 1160 180 {lab=VSS}
+N 1160 -70 1160 180 {lab=VSS}
+C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill5.sym} 1300 210 3 0 {name=x11}
 C {iopin.sym} 740 -70 2 0 {name=p1 lab=VSS}
 C {iopin.sym} 740 -50 2 0 {name=p2 lab=VDD}
 C {iopin.sym} 740 -20 2 0 {name=p3 lab=DVSS}
 C {iopin.sym} 740 0 2 0 {name=p4 lab=DVDD}
-C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill1.sym} 1740 210 3 0 {name=x7[0..1]}
+C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill1.sym} 1520 210 3 0 {name=x7[0..1]}
 C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 2170 -180 2 0 {name=x10[0..4]}
 C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill5.sym} 2170 -400 2 0 {name=x24}
+C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__cor.sym} 1740 210 3 0 {name=x1}
+C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 1080 210 3 0 {name=x2[0..2]}

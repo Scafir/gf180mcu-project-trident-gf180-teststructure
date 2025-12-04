@@ -2625,12 +2625,6 @@ N 7050 -17830 7060 -17830 {lab=PAD_ESD_TEST_GUARD_PAD}
 N 7050 -18190 7050 -17830 {lab=PAD_ESD_TEST_GUARD_PAD}
 N 7050 -18190 7060 -18190 {lab=PAD_ESD_TEST_GUARD_PAD}
 N 7050 -17830 7050 -17640 {lab=PAD_ESD_TEST_GUARD_PAD}
-N 7050 -17640 7050 -17570 {lab=PAD_ESD_TEST_GUARD_PAD}
-N 7050 -17510 7110 -17510 {lab=VSS}
-N 7110 -17700 7110 -17510 {lab=VSS}
-N 7010 -17540 7030 -17540 {lab=VSS}
-N 7010 -17540 7010 -17510 {lab=VSS}
-N 7010 -17510 7050 -17510 {lab=VSS}
 C {iopin.sym} 7850 -1700 0 0 {name=p3 lab=lv_nfet_W075L070_source_PAD}
 C {iopin.sym} 7850 -2140 0 0 {name=p4 lab=lv_nfet_W075L070_gate_PAD}
 C {iopin.sym} 7850 -2580 0 0 {name=p5 lab=lv_nfet_W075L070_drain_PAD}
@@ -2949,9 +2943,3 @@ C {hv_inverter_W075L070.sym} 4670 -17420 1 0 {name=x147}
 C {iopin.sym} 3880 -18190 3 0 {name=p32 lab=PAD_ESD_GUARDSENSE_SENSE_OUT_PAD}
 C {lab_pin.sym} 4760 -17620 0 0 {name=p17 sig_type=std_logic lab=SENSE_RES_DEBUG}
 C {lab_pin.sym} 4810 -17580 2 0 {name=p34 sig_type=std_logic lab=PAD_RES_DEBUG}
-C {symbols/ppolyf_u.sym} 7050 -17540 0 0 {name=R1
-W=1e-6
-L=1e-6
-model=ppolyf_u
-spiceprefix=X
-m=1}

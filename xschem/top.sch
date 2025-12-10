@@ -17,6 +17,110 @@ T {VDD} 7950 -17120 0 0 0.4 0.4 {}
 T {VSS} 7950 -17560 0 0 0.4 0.4 {}
 T {VDD} 2040 -17560 2 0 0.4 0.4 {}
 T {VSS} 2040 -17120 2 0 0.4 0.4 {}
+T {21} 3420 -18740 3 1 0.4 0.4 {}
+T {22} 3870 -18780 3 1 0.4 0.4 {}
+T {23} 4740 -18730 3 1 0.4 0.4 {}
+T {24} 4790 -18870 3 1 0.4 0.4 {}
+T {25} 4880 -18680 3 1 0.4 0.4 {}
+T {26} 5390 -18660 3 1 0.4 0.4 {}
+T {27} 5730 -18670 3 1 0.4 0.4 {}
+T {28} 6090 -18670 3 1 0.4 0.4 {}
+T {29} 6390 -18670 3 1 0.4 0.4 {}
+T {30} 7070 -18660 0 1 0.4 0.4 {}
+T {31} 8290 -17530 0 1 0.4 0.4 {}
+T {32} 8320 -17100 0 1 0.4 0.4 {}
+T {33} 8300 -16640 0 1 0.4 0.4 {}
+T {34} 8330 -16210 0 1 0.4 0.4 {}
+T {35
+} 8310 -15750 0 1 0.4 0.4 {}
+T {36} 8290 -15340 0 1 0.4 0.4 {}
+T {37} 8310 -14890 0 1 0.4 0.4 {}
+T {38} 8300 -14460 0 1 0.4 0.4 {}
+T {39} 8330 -14020 0 1 0.4 0.4 {}
+T {40} 8330 -13550 0 1 0.4 0.4 {}
+T {1} 1610 -9220 0 0 0.4 0.4 {}
+T {2} 1610 -9650 0 0 0.4 0.4 {}
+T {3} 1610 -10090 0 0 0.4 0.4 {}
+T {4} 1630 -10540 0 0 0.4 0.4 {}
+T {5} 1640 -10980 0 0 0.4 0.4 {}
+T {6} 1640 -11410 0 0 0.4 0.4 {}
+T {7} 1650 -11860 0 0 0.4 0.4 {}
+T {8} 1660 -12290 0 0 0.4 0.4 {}
+T {9} 1660 -12740 0 0 0.4 0.4 {}
+T {10} 1670 -13170 0 0 0.4 0.4 {}
+T {11} 1690 -13620 0 0 0.4 0.4 {}
+T {12} 1720 -14060 0 0 0.4 0.4 {}
+T {13} 1740 -14490 0 0 0.4 0.4 {}
+T {14} 1750 -14930 0 0 0.4 0.4 {}
+T {15} 1770 -15370 0 0 0.4 0.4 {}
+T {16} 1780 -15830 0 0 0.4 0.4 {}
+T {17} 1800 -16250 0 0 0.4 0.4 {}
+T {18} 1810 -16690 0 0 0.4 0.4 {}
+T {19} 1820 -17150 0 0 0.4 0.4 {}
+T {20} 1830 -17590 0 0 0.4 0.4 {}
+T {NO BOND} 4820 -18870 0 0 0.4 0.4 {}
+T {NO BOND} 5430 -18670 0 0 0.4 0.4 {}
+T {NO BOND} 6120 -18670 0 0 0.4 0.4 {}
+T {41} 8300 -13160 0 1 0.4 0.4 {}
+T {42} 8360 -12720 0 1 0.4 0.4 {}
+T {43} 8380 -12280 0 1 0.4 0.4 {}
+T {44} 8390 -11840 0 1 0.4 0.4 {}
+T {45} 8370 -11390 0 1 0.4 0.4 {}
+T {46} 8400 -10940 0 1 0.4 0.4 {}
+T {47} 8410 -10520 0 1 0.4 0.4 {}
+T {48} 8410 -10080 0 1 0.4 0.4 {}
+T {49} 8410 -9640 0 1 0.4 0.4 {}
+T {50} 8420 -9190 0 1 0.4 0.4 {}
+T {51} 8420 -8740 0 1 0.4 0.4 {}
+T {52} 8430 -8300 0 1 0.4 0.4 {}
+T {53} 8410 -7890 0 1 0.4 0.4 {}
+T {54} 8400 -7420 0 1 0.4 0.4 {}
+T {55} 8400 -6990 0 1 0.4 0.4 {}
+T {56} 8400 -6540 0 1 0.4 0.4 {}
+T {57} 8410 -6100 0 1 0.4 0.4 {}
+T {58} 8410 -5660 0 1 0.4 0.4 {}
+T {59} 8390 -5230 0 1 0.4 0.4 {}
+T {60} 8400 -4790 0 1 0.4 0.4 {}
+T {61} 8380 -4350 0 1 0.4 0.4 {}
+T {62} 8360 -3910 0 1 0.4 0.4 {}
+T {63} 8350 -3460 0 1 0.4 0.4 {}
+T {64} 8330 -3030 0 1 0.4 0.4 {}
+T {66} 8330 -2590 0 1 0.4 0.4 {}
+T {66} 8330 -2150 0 1 0.4 0.4 {}
+T {67} 8350 -1700 0 1 0.4 0.4 {}
+T {68} 8330 -1270 0 1 0.4 0.4 {}
+T {69} 8330 -830 0 1 0.4 0.4 {}
+T {70} 8330 -390 0 1 0.4 0.4 {}
+T {71} 7010 640 1 1 0.4 0.4 {}
+T {72} 6390 620 1 1 0.4 0.4 {}
+T {73} 5500 520 1 1 0.4 0.4 {}
+T {74} 5450 640 1 1 0.4 0.4 {}
+T {75} 5390 520 1 1 0.4 0.4 {}
+T {76} 5050 470 1 1 0.4 0.4 {}
+T {77} 4740 480 1 1 0.4 0.4 {}
+T {78} 4410 480 1 1 0.4 0.4 {}
+T {79} 4070 490 1 1 0.4 0.4 {}
+T {80} 3630 480 1 1 0.4 0.4 {}
+T {88} 1840 -3460 0 1 0.4 0.4 {}
+T {87} 1820 -3030 0 1 0.4 0.4 {}
+T {86} 1820 -2590 0 1 0.4 0.4 {}
+T {85} 1820 -2150 0 1 0.4 0.4 {}
+T {84} 1840 -1700 0 1 0.4 0.4 {}
+T {83} 1820 -1270 0 1 0.4 0.4 {}
+T {82} 1820 -830 0 1 0.4 0.4 {}
+T {81} 1820 -390 0 1 0.4 0.4 {}
+T {100} 1900 -8740 0 1 0.4 0.4 {}
+T {99} 1880 -8310 0 1 0.4 0.4 {}
+T {98} 1890 -7870 0 1 0.4 0.4 {}
+T {97} 1870 -7430 0 1 0.4 0.4 {}
+T {96} 1850 -6990 0 1 0.4 0.4 {}
+T {95} 1840 -6540 0 1 0.4 0.4 {}
+T {94} 1820 -6110 0 1 0.4 0.4 {}
+T {93} 1820 -5670 0 1 0.4 0.4 {}
+T {92} 1820 -5230 0 1 0.4 0.4 {}
+T {91} 1840 -4780 0 1 0.4 0.4 {}
+T {90} 1820 -4350 0 1 0.4 0.4 {}
+T {89} 1820 -3910 0 1 0.4 0.4 {}
 N 7640 -1630 7640 -1600 {lab=VDD}
 N 7420 -1600 7640 -1600 {lab=VDD}
 N 7600 -1630 7600 -1620 {lab=VDD}
@@ -948,7 +1052,7 @@ N 2390 -14630 2390 -14620 {lab=VSS}
 N 2390 -14620 2640 -14620 {lab=VSS}
 N 2350 -14630 2350 -14600 {lab=VSS}
 N 2350 -14600 2590 -14600 {lab=VSS}
-N 2150 -14920 2510 -14920 {lab=TOFILL7_PAD}
+N 2150 -14920 2510 -14920 {lab=GUARD_IMPORTANCE_TOP_GUARD_PAD}
 N 2350 -15460 2570 -15460 {lab=VDD}
 N 2390 -15440 2390 -15430 {lab=VDD}
 N 2350 -15460 2350 -15430 {lab=VDD}
@@ -965,7 +1069,7 @@ N 2390 -15070 2390 -15060 {lab=VSS}
 N 2390 -15060 2640 -15060 {lab=VSS}
 N 2350 -15070 2350 -15040 {lab=VSS}
 N 2350 -15040 2590 -15040 {lab=VSS}
-N 2150 -15360 2510 -15360 {lab=TOFILL6_PAD}
+N 2150 -15360 2510 -15360 {lab=GUARD_IMPORTANCE_BOTTOM_GUARD_PAD}
 N 2350 -15900 2570 -15900 {lab=VDD}
 N 2390 -15880 2390 -15870 {lab=VDD}
 N 2350 -15900 2350 -15870 {lab=VDD}
@@ -982,7 +1086,7 @@ N 2390 -15510 2390 -15500 {lab=VSS}
 N 2390 -15500 2640 -15500 {lab=VSS}
 N 2350 -15510 2350 -15480 {lab=VSS}
 N 2350 -15480 2590 -15480 {lab=VSS}
-N 2150 -15800 2510 -15800 {lab=TOFILL5_PAD}
+N 2150 -15800 2510 -15800 {lab=GUARD_IMPORTANCE_SIDE_GUARD_PAD}
 N 2350 -16340 2570 -16340 {lab=VDD}
 N 2390 -16320 2390 -16310 {lab=VDD}
 N 2350 -16340 2350 -16310 {lab=VDD}
@@ -999,7 +1103,6 @@ N 2390 -15950 2390 -15940 {lab=VSS}
 N 2390 -15940 2640 -15940 {lab=VSS}
 N 2350 -15950 2350 -15920 {lab=VSS}
 N 2350 -15920 2590 -15920 {lab=VSS}
-N 2150 -16240 2510 -16240 {lab=TOFILL4_PAD}
 N 2350 -16780 2570 -16780 {lab=VDD}
 N 2390 -16760 2390 -16750 {lab=VDD}
 N 2350 -16780 2350 -16750 {lab=VDD}
@@ -1016,7 +1119,7 @@ N 2390 -16390 2390 -16380 {lab=VSS}
 N 2390 -16380 2640 -16380 {lab=VSS}
 N 2350 -16390 2350 -16360 {lab=VSS}
 N 2350 -16360 2590 -16360 {lab=VSS}
-N 2150 -16680 2510 -16680 {lab=TOFILL3_PAD}
+N 2150 -16680 2510 -16680 {lab=GUARD_IMPORTANCE_PAD_GUARD_PAD}
 N 2350 -17000 2570 -17000 {lab=VDD}
 N 2390 -16980 2390 -16970 {lab=VDD}
 N 2350 -17000 2350 -16970 {lab=VDD}
@@ -2625,6 +2728,21 @@ N 7050 -17830 7060 -17830 {lab=PAD_ESD_TEST_GUARD_PAD}
 N 7050 -18190 7050 -17830 {lab=PAD_ESD_TEST_GUARD_PAD}
 N 7050 -18190 7060 -18190 {lab=PAD_ESD_TEST_GUARD_PAD}
 N 7050 -17830 7050 -17640 {lab=PAD_ESD_TEST_GUARD_PAD}
+N 2150 -16240 2210 -16240 {lab=GUARD_IMPORTANCE_INPUT_PAD}
+N 2510 -16680 2680 -16680 {lab=GUARD_IMPORTANCE_PAD_GUARD_PAD}
+N 2680 -16680 2680 -16260 {lab=GUARD_IMPORTANCE_PAD_GUARD_PAD}
+N 2510 -16260 2680 -16260 {lab=GUARD_IMPORTANCE_PAD_GUARD_PAD}
+N 2510 -16240 3680 -16240 {lab=GUARD_IMPORTANCE_INPUT_PAD}
+N 2510 -15800 2730 -15800 {lab=GUARD_IMPORTANCE_SIDE_GUARD_PAD}
+N 2730 -16260 2730 -15800 {lab=GUARD_IMPORTANCE_SIDE_GUARD_PAD}
+N 2730 -16260 3680 -16260 {lab=GUARD_IMPORTANCE_SIDE_GUARD_PAD}
+N 2510 -15360 2780 -15360 {lab=GUARD_IMPORTANCE_BOTTOM_GUARD_PAD}
+N 2780 -16220 2780 -15360 {lab=GUARD_IMPORTANCE_BOTTOM_GUARD_PAD}
+N 2780 -16220 3680 -16220 {lab=GUARD_IMPORTANCE_BOTTOM_GUARD_PAD}
+N 2140 -14920 2150 -14920 {lab=GUARD_IMPORTANCE_TOP_GUARD_PAD}
+N 2510 -14920 2880 -14920 {lab=GUARD_IMPORTANCE_TOP_GUARD_PAD}
+N 2880 -16200 2880 -14920 {lab=GUARD_IMPORTANCE_TOP_GUARD_PAD}
+N 2880 -16200 3680 -16200 {lab=GUARD_IMPORTANCE_TOP_GUARD_PAD}
 C {iopin.sym} 7850 -1700 0 0 {name=p3 lab=lv_nfet_W075L070_source_PAD}
 C {iopin.sym} 7850 -2140 0 0 {name=p4 lab=lv_nfet_W075L070_gate_PAD}
 C {iopin.sym} 7850 -2580 0 0 {name=p5 lab=lv_nfet_W075L070_drain_PAD}
@@ -2716,15 +2834,15 @@ C {iopin.sym} 2150 -14040 2 0 {name=p61 lab=TOFILL9_PAD}
 C {gf180mcu_fd_io__asig_5p0_70x100.sym} 2360 -14480 0 0 {name=x95}
 C {iopin.sym} 2150 -14480 2 0 {name=p62 lab=TOFILL8_PAD}
 C {gf180mcu_fd_io__asig_5p0_70x100.sym} 2360 -14920 0 0 {name=x96}
-C {iopin.sym} 2150 -14920 2 0 {name=p63 lab=TOFILL7_PAD}
 C {gf180mcu_fd_io__asig_5p0_70x100.sym} 2360 -15360 0 0 {name=x97}
-C {iopin.sym} 2150 -15360 2 0 {name=p64 lab=TOFILL6_PAD}
+C {iopin.sym} 2150 -15360 2 0 {name=p64 lab=GUARD_IMPORTANCE_BOTTOM_GUARD_PAD
+
+}
 C {gf180mcu_fd_io__asig_5p0_70x100.sym} 2360 -15800 0 0 {name=x98}
-C {iopin.sym} 2150 -15800 2 0 {name=p65 lab=TOFILL5_PAD}
-C {gf180mcu_fd_io__asig_5p0_70x100.sym} 2360 -16240 0 0 {name=x99}
-C {iopin.sym} 2150 -16240 2 0 {name=p66 lab=TOFILL4_PAD}
+C {iopin.sym} 2150 -15800 2 0 {name=p65 lab=GUARD_IMPORTANCE_SIDE_GUARD_PAD}
+C {iopin.sym} 2150 -16240 2 0 {name=p66 lab=GUARD_IMPORTANCE_INPUT_PAD}
 C {gf180mcu_fd_io__asig_5p0_70x100.sym} 2360 -16680 0 0 {name=x102}
-C {iopin.sym} 2150 -16680 2 0 {name=p67 lab=TOFILL3_PAD}
+C {iopin.sym} 2150 -16680 2 0 {name=p67 lab=GUARD_IMPORTANCE_PAD_GUARD_PAD}
 C {gf180mcu_fd_io__asig_5p0_70x100.sym} 7630 -15780 2 0 {name=x106}
 C {iopin.sym} 7840 -15780 0 0 {name=p70 lab=TOFILL49_PAD}
 C {gf180mcu_fd_io__asig_5p0_70x100.sym} 7630 -15340 2 0 {name=x107}
@@ -2826,9 +2944,7 @@ C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sy
 C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 7630 -16440 2 0 {name=x54[0..2]}
 C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 7630 -16880 2 0 {name=x55[0..2]}
 C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 2360 -16900 0 0 {name=x58[0..2]}
-C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 2360 -16460 0 0 {name=x59[0..2]}
-C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 2360 -16020 0 0 {name=x60[0..2]}
-C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 2360 -15580 0 0 {name=x61[0..2]}
+C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 2360 -16020 0 0 {name=x61[0..1]}
 C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 2360 -15140 0 0 {name=x62[0..2]}
 C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 2360 -14700 0 0 {name=x63[0..2]}
 C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 2360 -14260 0 0 {name=x64[0..2]}
@@ -2943,3 +3059,8 @@ C {hv_inverter_W075L070.sym} 4670 -17420 1 0 {name=x147}
 C {iopin.sym} 3880 -18190 3 0 {name=p32 lab=PAD_ESD_GUARDSENSE_SENSE_OUT_PAD}
 C {lab_pin.sym} 4760 -17620 0 0 {name=p17 sig_type=std_logic lab=SENSE_RES_DEBUG}
 C {lab_pin.sym} 4810 -17580 2 0 {name=p34 sig_type=std_logic lab=PAD_RES_DEBUG}
+C {gf180mcu_liplib__no_esd_guarded_pad_70x100.sym} 2370 -16240 0 0 {name=x19}
+C {iopin.sym} 2140 -14920 2 0 {name=p35 lab=GUARD_IMPORTANCE_TOP_GUARD_PAD
+
+}
+C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 2360 -16460 0 0 {name=x36[0..1]}

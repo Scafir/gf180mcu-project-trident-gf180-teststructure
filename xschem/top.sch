@@ -2969,10 +2969,6 @@ C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sy
 C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 2360 -3700 0 0 {name=x88[0..2]}
 C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 2360 -1500 0 0 {name=x89[0..2]}
 C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 2360 -1060 0 0 {name=x93[0..2]}
-C {lv_nfet_W075L070.sym} 7140 -2320 3 0 {name=x8}
-C {lv_pfet_W075L070.sym} 7140 -3620 3 0 {name=x15}
-C {hv_nfet_W075L070.sym} 7140 -4940 3 0 {name=x27}
-C {hv_pfet_W075L070.sym} 7140 -6260 3 0 {name=x33}
 C {iopin.sym} 7840 -9620 0 0 {name=p15 lab=ESD_DIODES_FOUNDRY_VDD_CATHODE_PAD}
 C {iopin.sym} 7840 -8740 0 0 {name=p92 lab=ESD_DIODES_FOUNDRY_VDD_ANODE_PAD}
 C {gf180mcu_fd_io__asig_5p0_70x100.sym} 7630 -8300 2 0 {name=x143}
@@ -3063,4 +3059,9 @@ C {gf180mcu_liplib__no_esd_guarded_pad_70x100.sym} 2370 -16240 0 0 {name=x19}
 C {iopin.sym} 2140 -14920 2 0 {name=p35 lab=GUARD_IMPORTANCE_TOP_GUARD_PAD
 
 }
-C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 2360 -16460 0 0 {name=x36[0..1]}
+C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 2360 -16460 0 0 {name=x36[0..2]}
+C {hv_nfet_W0160L070.sym} 7140 -4940 3 0 {name=x91}
+C {hv_pfet_W160L070.sym} 7140 -6260 3 0 {name=x27}
+C {lv_pfet_W160L070.sym} 7140 -3620 3 0 {name=x15}
+C {lv_nfet_W160L070.sym} 7140 -2320 3 0 {name=x8}
+C {/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/xschem/gf180mcu_fd_io__fill10.sym} 2360 -15580 0 0 {name=x38[0..2]}

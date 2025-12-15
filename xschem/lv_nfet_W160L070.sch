@@ -14,14 +14,15 @@ N 200 -70 200 40 {lab=source}
 N 160 200 320 200 {lab=VSS}
 N 320 -100 320 200 {lab=VSS}
 N 200 -100 320 -100 {lab=VSS}
-N 0 -280 40 -280 {lab=guard}
+N -0 -280 40 -280 {lab=guard}
 C {iopin.sym} 0 -220 2 0 {name=p1 lab=drain}
 C {iopin.sym} 0 -100 2 0 {name=p2 lab=gate}
 C {iopin.sym} 0 40 2 0 {name=p3 lab=source}
 C {iopin.sym} 0 200 2 0 {name=p4 lab=VSS}
-C {symbols/nfet_06v0.sym} 180 -100 0 0 {name=M1
-L=0.70u
-W=0.75u
+C {iopin.sym} 0 -280 2 0 {name=p5 lab=guard}
+C {symbols/nfet_03v3.sym} 180 -100 0 0 {name=M1
+L=0.7u
+W=1.6u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -30,8 +31,7 @@ as="'int((nf+2)/2) * W/nf * 0.18u'"
 ps="'2*int((nf+2)/2) * (W/nf + 0.18u)'"
 nrd="'0.18u / W'" nrs="'0.18u / W'"
 sa=0 sb=0 sd=0
-model=nfet_06v0
+model=nfet_03v3
 spiceprefix=X
 }
-C {iopin.sym} 0 -280 2 0 {name=p5 lab=guard}
 C {noconn.sym} 40 -280 2 0 {name=l1}

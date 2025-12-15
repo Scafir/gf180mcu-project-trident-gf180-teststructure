@@ -22,7 +22,7 @@ C {iopin.sym} 0 200 2 0 {name=p4 lab=VDD}
 C {iopin.sym} 0 -280 2 0 {name=p5 lab=guard}
 C {symbols/pfet_03v3.sym} 180 -100 2 1 {name=M1
 L=0.7u
-W=0.75u
+W=1.6u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"

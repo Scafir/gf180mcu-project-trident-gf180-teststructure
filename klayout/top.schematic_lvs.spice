@@ -1,3 +1,5 @@
+* SPDX-FileCopyrightText: 2026 Clyde laforge <clyde.laforge@cern.ch>
+* SPDX-License-Identifier: CERN-OHL-W-2.0
 ** sch_path: /run/host/mainData/cernbox/PhD/gf180mcu-project-trident-gf180-teststructure/xschem/top.sch
 **.subckt top lv_nfet_W030L070_source_PAD lv_nfet_W030L070_gate_PAD lv_nfet_W030L070_drain_PAD lv_pfet_W030L070_source_PAD
 *+ lv_pfet_W030L070_gate_PAD lv_pfet_W030L070_drain_PAD hv_nfet_W030L070_source_PAD hv_nfet_W030L070_gate_PAD hv_nfet_W030L070_drain_PAD

@@ -1,10 +1,27 @@
-v {xschem version=3.4.8RC file_version=1.3}
+v {xschem version=3.4.8RC file_version=1.3
+SPDX-FileCopyrightText: 2026 Clyde laforge <clyde.laforge@cern.ch>
+SPDX-License-Identifier: CERN-OHL-W-2.0
+}
 G {}
 K {}
 V {}
 S {}
 F {}
 E {}
+T {------------------------------------------------------------------------
+| Copyright CERN 2026                                                  |
+|                                                                      |
+| This source describes Open Hardware and is licensed under the        |
+| CERN-OHL-W v2.                                                       |
+| You may redistribute and modify this source and make products using  |
+| it under the terms of the CERN-OHL-W v2                              |
+| (https://ohwr.org/cern_ohl_w_v2.txt).                                |
+|                                                                      |
+| This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY,  |
+| INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A |
+| PARTICULAR PURPOSE. Please see the CERN-OHL-W v2 for applicable      |
+| conditions.                                                          |
+------------------------------------------------------------------------} -60 230 0 0 0.4 0.4 {font=monospace}
 N -0 200 160 200 {lab=VDD}
 N 0 -220 200 -220 {lab=drain}
 N 200 -220 200 -130 {lab=drain}

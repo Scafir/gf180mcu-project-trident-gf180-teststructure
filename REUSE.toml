@@ -1,0 +1,12 @@
+version = 1
+
+[[annotations]]
+path = "ip/gf180mcu_ws_ip__id/**"
+SPDX-FileCopyrightText = "2026 Leo Moser <leo.moser@pm.me>"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = "ip/gf180mcu_ws_ip__logo/**"
+SPDX-FileCopyrightText = "2026 Leo Moser <leo.moser@pm.me>"
+SPDX-License-Identifier = "Apache-2.0"
+

@@ -1,10 +1,14 @@
-v {xschem version=3.4.8RC file_version=1.3}
+v {xschem version=3.4.8RC file_version=1.3
+SPDX-FileCopyrightText: 2026 Clyde laforge <clyde.laforge@cern.ch>
+SPDX-License-Identifier: CERN-OHL-W-2.0
+}
 G {}
 K {}
 V {}
 S {}
 F {}
 E {}
+B 4 4700 30 4700 40 {}
 T {klayout does not seem to support multiple pins to the same net. Hence, there are empty lines where a duplicated pin should be (e.g VDD, VSS)} 7480 -120 0 0 0.4 0.4 {}
 T {VDD} 7870 -390 0 0 0.4 0.4 {}
 T {VSS} 7870 -830 0 0 0.4 0.4 {}
@@ -121,6 +125,29 @@ T {92} 1820 -5230 0 1 0.4 0.4 {}
 T {91} 1840 -4780 0 1 0.4 0.4 {}
 T {90} 1820 -4350 0 1 0.4 0.4 {}
 T {89} 1820 -3910 0 1 0.4 0.4 {}
+T {------------------------------------------------------------------------
+| Copyright CERN 2026                                                  |
+|                                                                      |
+| This source describes Open Hardware and is licensed under the        |
+| CERN-OHL-W v2.                                                       |
+| You may redistribute and modify this source and make products using  |
+| it under the terms of the CERN-OHL-W v2                              |
+| (https://ohwr.org/cern_ohl_w_v2.txt).                                |
+|                                                                      |
+| This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY,  |
+| INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A |
+| PARTICULAR PURPOSE. Please see the CERN-OHL-W v2 for applicable      |
+| conditions.                                                          |
+------------------------------------------------------------------------} 7490 200 0 0 0.4 0.4 {font=monospace}
+T {--------------------------------------------------------------------------
+| Source location:                                                       |
+| https://github.com/Scafir/gf180mcu-project-trident-gf180-teststructure |
+| As per CERN-OHL-W v2 section 4, should You produce hardware based      |
+| on this source, You must where practicable maintain the Source         |
+| Location visible on the package of the integrated circuit or other     |
+| products you make using this source, as well as in any documentation   |
+| you publish including datasheets and manuals.                          |
+--------------------------------------------------------------------------} 7490 520 0 0 0.4 0.4 {font=monospace}
 N 7640 -1630 7640 -1600 {lab=VDD}
 N 7420 -1600 7640 -1600 {lab=VDD}
 N 7600 -1630 7600 -1620 {lab=VDD}

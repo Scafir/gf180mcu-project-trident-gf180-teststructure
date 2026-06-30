@@ -1,4 +1,7 @@
-v {xschem version=3.4.8RC file_version=1.3}
+v {xschem version=3.4.8RC file_version=1.3
+SPDX-FileCopyrightText: 2026 Clyde laforge <clyde.laforge@cern.ch>
+SPDX-License-Identifier: CERN-OHL-W-2.0
+}
 G {}
 K {}
 V {}

@@ -1,3 +1,6 @@
+<!-- SPDX-FileCopyrightText: 2024 Your Name <your.email@example.com> -->
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+
 # gf180mcu Project Template
 
 Project template for wafer.space MPW runs using the gf180mcu PDK.
@@ -17,7 +20,7 @@ This repository contains a Nix flake that provides a shell with the [`leo/gf180m
 Simply run `nix-shell` in the root of this repository.
 
 > [!NOTE]
-> Since we are working on a branch of LibreLane, OpenROAD needs to be compiled locally. This will be done automatically by Nix, and the binary will be cached locally. 
+> Since we are working on a branch of LibreLane, OpenROAD needs to be compiled locally. This will be done automatically by Nix, and the binary will be cached locally.
 
 With this shell enabled, run the implementation:
 

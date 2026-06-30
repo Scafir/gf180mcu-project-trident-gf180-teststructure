@@ -1,0 +1,17 @@
+The CERN logo
+
+The CERN logo is the property of the Organization, it is protected and any usage by third parties is subject to prior approval.
+Thank you to ask for authorisation.
+
+Our logo is made up of two components:
+
+The word ‘CERN’, which is the acronym derived from the Organization's first official title: Conseil Européen pour la Recherche Nucléaire, or European Council for Nuclear Research.
+The interlaced rings, which are a simplified representation of the accelerator chain and the particle tracks.
+
+These two components cannot be altered:
+
+No changes can be made to their positioning, scale or typography. It is forbidden to separate them or to use them in another design.
+
+In order to preserve the strong impact of the logo, the rules for its use set out in this graphic charter must be rigorously implemented.
+
+More information at https://design-guidelines.web.cern.ch/guidelines/logo

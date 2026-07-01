@@ -8,7 +8,6 @@ V {}
 S {}
 F {}
 E {}
-B 4 4700 30 4700 40 {}
 T {klayout does not seem to support multiple pins to the same net. Hence, there are empty lines where a duplicated pin should be (e.g VDD, VSS)} 7480 -120 0 0 0.4 0.4 {}
 T {VDD} 7870 -390 0 0 0.4 0.4 {}
 T {VSS} 7870 -830 0 0 0.4 0.4 {}
@@ -141,7 +140,7 @@ T {------------------------------------------------------------------------
 ------------------------------------------------------------------------} 7490 200 0 0 0.4 0.4 {font=monospace}
 T {--------------------------------------------------------------------------
 | Source location:                                                       |
-| https://github.com/Scafir/gf180mcu-project-trident-gf180-teststructure |
+| https://cern.ch/gftrid                                                 |
 | As per CERN-OHL-W v2 section 4, should You produce hardware based      |
 | on this source, You must where practicable maintain the Source         |
 | Location visible on the package of the integrated circuit or other     |

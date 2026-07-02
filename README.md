@@ -11,6 +11,9 @@ leakage for various basic teststructures such as (but not limited to):
 
 You can find the datasheet of this chip under `doc/TRIDENT_GF180_teststructures.pdf`.
 
+You may find the upstream location of this repository, as well as others concerning
+this ASIC at https://cern.ch/gftrid
+
 ESD protection pads from liplib have been used, available here:
 https://github.com/Scafir/liplib
 
